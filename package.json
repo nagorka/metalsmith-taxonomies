@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Metalsmith plugin for handling taxonomies",
   "main": "lib/index.js",
+  "repository": "git://github.com/nagorka/metalsmith-taxonomies.git",
   "license": "MIT",
   "dependencies": {
     "debug": "^2.2.0",
