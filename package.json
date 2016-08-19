@@ -1,0 +1,12 @@
+{
+  "name": "metalsmith-taxonomies",
+  "version": "0.0.1",
+  "description": "Metalsmith plugin for handling taxonomies",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "metalsmith": "^2.2.0",
+    "minimatch": "^3.0.3"
+  }
+}
