@@ -1,5 +1,5 @@
 ---
-title: Kundtjänst
+title: Customer Service
 taxonomy: customer-service
 ---
 
