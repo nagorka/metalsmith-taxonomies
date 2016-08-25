@@ -1,15 +1,15 @@
 var metalsmith = require('metalsmith');
-var taxonomies = require('../lib');
+var taxonomies = require('../lib/index2');
 
 metalsmith(__dirname)
 	.source('src')
 	.use(taxonomies({
-		pattern: 'challenges/*.md',
-		name: 'challenges'
-	}))
-	.use(taxonomies({
-		pattern: 'services/*.md',
-		name: 'services'
+		challenges: {
+			pattern: 'challenges/*.md',
+		},
+		services: {
+			pattern: 'services/*.md'
+		}
 	}))
 	.build(function(err) {
 		console.log(err || 'success');
